@@ -1,0 +1,18 @@
+{
+    "name": "gorlicious",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "A simple delicious extention with support for viewing bundles",
+    "options_page": "options.html",
+    "permissions": [
+        "alarms",
+        "bookmarks",
+        "storage",
+        "https://api.delicious.com/*",
+        "https://api.del.icio.us/*"
+    ],
+    "background": {
+        "scripts": [ "event.js" ],
+        "persitent": false
+    }
+}
